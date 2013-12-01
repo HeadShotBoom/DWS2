@@ -1,0 +1,94 @@
+body {
+    padding:10px;
+    width:95%;
+    background: #4c4c4c; /* Old browsers */
+    background: -moz-linear-gradient(top,  #4c4c4c 0%, #595959 7%, #666666 15%, #474747 23%, #2c2c2c 50%, #111111 60%, #666666 80%, #595959 91%, #4c4c4c 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#4c4c4c), color-stop(7%,#595959), color-stop(15%,#666666), color-stop(23%,#474747), color-stop(50%,#2c2c2c), color-stop(60%,#111111), color-stop(80%,#666666), color-stop(91%,#595959), color-stop(100%,#4c4c4c)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  #4c4c4c 0%,#595959 7%,#666666 15%,#474747 23%,#2c2c2c 50%,#111111 60%,#666666 80%,#595959 91%,#4c4c4c 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  #4c4c4c 0%,#595959 7%,#666666 15%,#474747 23%,#2c2c2c 50%,#111111 60%,#666666 80%,#595959 91%,#4c4c4c 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  #4c4c4c 0%,#595959 7%,#666666 15%,#474747 23%,#2c2c2c 50%,#111111 60%,#666666 80%,#595959 91%,#4c4c4c 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  #4c4c4c 0%,#595959 7%,#666666 15%,#474747 23%,#2c2c2c 50%,#111111 60%,#666666 80%,#595959 91%,#4c4c4c 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4c4c4c', endColorstr='#4c4c4c',GradientType=0 ); /* IE6-9 */
+}
+nav {
+    margin-left:10%;
+    margin-right:auto;
+    width:70%;
+    background-color:darkgreen;
+}
+.link {
+    display:inline;
+    margin-right:7.5%;
+    margin-left:7.5%;
+}
+a:hover {
+    color:yellow;
+}
+#Defects {
+    color:red;
+}
+h1, h2 {
+    font-family: 'Allan', cursive;
+}
+article p {
+    width: 68%
+}
+aside table {
+    border:5px dashed #FFFFFF;
+}
+* {
+    word-break:normal;
+    color:#fff;
+}
+p::first-letter {
+    color: teal;
+    font-size: 200%;
+}
+tr:nth-child(2n+1) {
+    background-color:#fff;
+}
+tr:nth-child(2n+1) th, tr:nth-child(2n+1) td {
+    color:black;
+}
+li[level] {
+    font-weight:900;
+}
+h2[type~=is]:hover{
+    padding:5px;
+    border:1px solid white;
+    width:150px;
+}
+a[href^="http://"]:hover {
+    padding-right:20px;
+    background:url(../images/external_link.gif) no-repeat right center;
+}
+
+a[type="external"]:hover{
+    font-weight: 900;
+}
+p[type*="ble"]{
+    border:1px dashed grey;
+    width:68%;
+    padding:3px;
+}
+p[number|="407"]{
+    font-size: 220%;
+}
+p[number|="407"]:hover{
+    visibility: hidden;
+}
+aside {
+    float:right;
+    width:30%;
+}
+article {
+    font-family: Arial, sans-serif;
+    line-height: 1.5em;
+}
+
+footer > p {
+    font-family: 'Allan', cursive;
+}
+p[type=intro]{
+    font-size: 125%;
+}
