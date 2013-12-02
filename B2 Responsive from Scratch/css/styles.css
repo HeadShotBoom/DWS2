@@ -1,0 +1,160 @@
+body {
+    font: 100%/1.5 "Helvetica Neue", Arial; /*16px*/
+    max-width:1000px;
+    margin:3.6% auto;
+    background:#dbdbdb;
+}
+
+#wrapper {
+    width:98%;
+    margin:0 auto;
+    overflow:hidden;
+    background:#999;
+}
+
+h1 {
+    font-size: 2em;
+    padding:1.5%;
+    margin:1.0204082%;
+}
+
+h2 {
+    font-size: 1.3em;
+    padding:1.5%;
+    margin:1.0204082%;
+}
+
+p {
+    font-size:.875em; /*14px*/
+    padding:15px;
+    margin:1.0204082%;
+}
+
+header {
+    border-bottom:5px solid #FFF;
+    max-height:100%;
+}
+
+#headshot {
+    width:40%;
+    padding:1.5510204%;
+    margin:1.0204082%;
+    float:left;
+}
+
+#headshot img {
+    max-width:100%;
+}
+nav ul li {
+    display: inline-block;
+    padding-right:10%;
+}
+ nav ul {
+     text-align:center;
+ }
+ div[class="1"] {
+    width:30.972789%;
+    margin:1.0204082%;
+    float:left;
+}
+
+div[class="1"] img {
+    max-width:100%;
+}
+
+div[class="career"] {
+    width:48.469388%;
+    float:left;
+}
+
+div[class="bio"]{
+    border-bottom:5px solid #FFF;
+}
+div[class="portfolio"]{
+    border-top:5px solid #FFF;
+}
+
+
+/* Tablet Landscape to standard 960 */
+@media screen and (min-width:768px) and (max-width: 959px){
+
+    body{
+    background:green
+    }
+
+    div[class="books"] {
+        margin-bottom:10%;
+    }
+    nav ul li {
+    padding-right:9%;
+    }
+
+    div[class="1"] {
+        width:46.972789%;
+        margin:1.0204082%;
+        float:left;
+    }
+}
+@media screen and (min-width:480px) and (max-width: 767px){
+
+    body{
+    background:yellow
+    }
+
+    nav ul li {
+    padding-right:3%;
+    font-weight:900;
+    font-size:1.3em;
+    }
+
+    nav ul li a {font-size:.9em;
+    }
+
+    h1, h2{
+        text-align:center;
+    }
+
+    div[class="1"] {
+        width:98%;
+        margin:1%;
+        float:none;
+        text-align:center;
+    }
+    div[class="career"] {
+        width:100%;
+        float:none;
+    }
+}
+@media screen and (max-width: 479px){
+    body{background:red}
+
+    nav ul li {
+        font-weight:900;
+        font-size:1em;
+        display:block;
+    }
+
+    nav ul li a {font-size:1.5em;
+    }
+
+    h1 {
+        font-size:2em;
+    }
+    h2 {
+        font-size:1.5em;
+    }
+    h1, h2{
+        text-align:center;
+    }
+
+    div[class="portfolio"], #headshot {
+        display:none;
+    }
+    div[class="career"] {
+        width:100%;
+        float:none;
+    }
+    nav ul li:last-of-type {
+        display:none;
+    }
+}
