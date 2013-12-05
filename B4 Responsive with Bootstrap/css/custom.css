@@ -1,0 +1,77 @@
+body {
+    background-color: #dbdbdb;
+}
+
+h1, h2, h3 {
+    font-family: 'Mr Bedfort', cursive;
+    margin-top:40px;
+}
+
+h2 {
+    font-weight: 900;
+    font-size: 3.25em;
+}
+
+h3 {
+    font-size: 2.75em;
+}
+
+aside {
+    border-left:2px solid #c09853;
+    padding-left:2%;
+}
+/*Competition Section*/
+#comps {
+    background-color: #faebcc;
+}
+/*Competition Tabs*/
+#comps ul.nav::selection, section.tab-content {
+    background-color: #ffffff;
+    padding:1.3%;
+}
+/*Image Carousel*/
+#pics {
+    margin-top: 30px;
+}
+
+
+@media only screen and (min-width: 768px){
+    section.tinyscreen {display:none;}
+    #tinyscreen{display:none;}
+}
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+    #pics {display:none;}
+    h1, h2, h3, h4, h5, h6 {text-align: center;font-family: "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;}
+    div.container {width:95%}
+    h1 { font-size: 2.875em; line-height: 2.645em; margin-bottom: 14px;}
+    h2 { font-size: 2.1875em; line-height: 1.9140625em; margin-bottom: 10px; }
+    h3 { font-size: 1.75em; line-height: 1.44117647058824em; margin-bottom: 8px; }
+    h4 { font-size: 1.3125em; line-height: 0.91875em; margin-bottom: 4px; }
+    h5 { font-size: 1.0625em; line-height: 0.75260416666666em; }
+    h6 { font-size: .875em; line-height: 0.58333333333334em; }
+
+    ul.nav.nav-tabs, section.tab-content{display:none;}
+    section.tinyscreen {display:inline;}
+    #bigscreen{display:none;}
+    aside {border:none; padding:0;}
+
+
+}
+
+/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+@media only screen and (max-width: 479px) {
+    #pics {display:none;}
+    h1, h2, h3, h4, h5, h6 {text-align: center;font-family: "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;}
+    div.container {width:95%}
+    h1 { font-size: 2.875em; line-height: 2.645em; margin-bottom: 14px;}
+    h2 { font-size: 2.1875em; line-height: 1.9140625em; margin-bottom: 10px; }
+    h3 { font-size: 1.75em; line-height: 1.44117647058824em; margin-bottom: 8px; }
+    h4 { font-size: 1.3125em; line-height: 0.91875em; margin-bottom: 4px; }
+    h5 { font-size: 1.0625em; line-height: 0.75260416666666em; }
+    h6 { font-size: .875em; line-height: 0.58333333333334em; }
+    ul.nav.nav-tabs, section.tab-content{display:none;}
+    section.tinyscreen {display:inline;}
+    #bigscreen{display:none;}
+    aside {border:none; padding:0;}
+}
