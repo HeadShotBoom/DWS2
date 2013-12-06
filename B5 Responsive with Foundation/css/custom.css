@@ -1,0 +1,48 @@
+body {
+    background-color: #dbdbdb;
+}
+
+header, nav {
+    background-color: #e7e7e7;
+    margin-bottom:20px;
+}
+#nav {
+    background-color: #e7e7e7;
+
+}
+#nav ul li a {
+    color:#272727;
+    font-weight: 800;
+}
+
+#source {
+    float:right;
+}
+
+img {
+    margin-top:10px;
+    margin-bottom:10px;
+}
+
+#pictures {
+    border-left:4px double #333333;
+}
+
+table {
+    border:1px solid #333;
+    margin-bottom: 100px;
+}
+h1 {
+    font-size: 400%;
+}
+
+h2 {
+    font-size: 300%;
+}
+
+h3 {
+    font-size:250%;
+}
+.makesomespace {
+    margin-top:75px;
+}
