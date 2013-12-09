@@ -1,79 +1,248 @@
+body {
+    background-color: #cca;
+    width:95%;
+}
+
+header {
+    background-color: #bbbbbb;
+    padding:2%;
+    width:50%;
+    position:relative;
+    left:20%;
+}
+
+section {
+    text-align: center;
+}
+
+header h1 {
+    text-align: center;
+}
+
+em {
+    font-size:300%;
+    color:#ff0000;
+}
+
+header p:first-of-type {
+    border-top:2px solid #000;
+    padding-top:10px;
+}
+
+h2 {
+    margin-top:70px;
+}
+
+img:hover {
+    z-index:5;
+}
+
+footer {
+    position:fixed;
+    bottom:0;
+    left:1%;
+}
+
 .container {
     position:relative;
-    width:2000px;
-    height:2000px;
+    width:65%;
+    height:1250px;
+    background-color: #bbbbbb;
+    left:15%;
 }
+img {
+    max-width:40%;
+}
+
+@media screen and (min-width: 1225px) {
 .upperleft1 {
     position: absolute;
     z-index: 1;
 }
 .upperright1 {
     position:absolute;
-    left:1500px;
+    left:60%;
     z-index: 1;
 }
 .lowerleft1 {
     position:absolute;
-    top:1500px;
+    top:750px;
     z-index: 1;
 }
 .lowerright1 {
     position:absolute;
-    top:1500px;
-    left:1500px;
+    top:750px;
+    left:60%;
     z-index: 1;
 }
 .upperleft2 {
     position: absolute;
-    top:250px;
-    left:250px;
+    top:125px;
+    left:10%;
     z-index: 2;
 }
 .upperright2 {
     position:absolute;
-    left:1250px;
-    top:250px;
+    left:50%;
+    top:125px;
     z-index: 2;
 }
 .lowerleft2 {
     position:absolute;
-    top:1250px;
-    left:250px;
+    top:625px;
+    left:10%;
     z-index: 2;
 }
 .lowerright2 {
     position:absolute;
-    top:1250px;
-    left:1250px;
+    top:625px;
+    left:50%;
     z-index: 2;
 }
 .upperleft3 {
     position: absolute;
-    top:500px;
-    left:500px;
+    top:250px;
+    left:20%;
     z-index: 3;
 }
 .upperright3 {
     position:absolute;
-    left:1000px;
-    top:500px;
+    left:40%;
+    top:250px;
     z-index: 3;
 }
 .lowerleft3 {
     position:absolute;
-    top:1000px;
-    left:500px;
+    top:500px;
+    left:20%;
     z-index: 3;
 }
 .lowerright3 {
     position:absolute;
-    top:1000px;
-    left:1000px;
+    top:500px;
+    left:40%;
     z-index: 3;
 }
 .center {
     position:absolute;
-    top:750px;
-    left:750px;
+    top:375px;
+    left:30%;
     z-index: 4;
+}
+}
+
+@media screen and (max-width: 1225px) and (min-width: 681px) {
+    header {
+        width:90%;
+        position:relative;
+        left:2.5%;
+    }
+
+    .container {
+        width:inherit;
+        position:relative;
+        left:0;
+        height:1565px;
+    }
+    .mediumcontainer {
+        position:relative;
+        left:20%;
+    }
+    .upperleft1 {
+        position: absolute;
+        z-index: 1;
+    }
+    .upperright1 {
+        position:absolute;
+        left:20%;
+        top:100px;
+        z-index: 1;
+    }
+    .lowerleft1 {
+        position:absolute;
+        top:200px;
+        z-index: 1;
+    }
+    .lowerright1 {
+        position:absolute;
+        top:300px;
+        left:20%;
+        z-index: 1;
+    }
+    .upperleft2 {
+        position: absolute;
+        top:400px;
+        left:0;
+        z-index: 2;
+    }
+    .upperright2 {
+        position:absolute;
+        left:20%;
+        top:500px;
+        z-index: 2;
+    }
+    .lowerleft2 {
+        position:absolute;
+        top:600px;
+        left:0;
+        z-index: 2;
+    }
+    .lowerright2 {
+        position:absolute;
+        top:700px;
+        left:20%;
+        z-index: 2;
+    }
+    .upperleft3 {
+        position: absolute;
+        top:800px;
+        left:0;
+        z-index: 3;
+    }
+    .upperright3 {
+        position:absolute;
+        left:20%;
+        top:900px;
+        z-index: 3;
+    }
+    .lowerleft3 {
+        position:absolute;
+        top:1000px;
+        left:0;
+        z-index: 3;
+    }
+    .lowerright3 {
+        position:absolute;
+        top:1100px;
+        left:20%;
+        z-index: 3;
+    }
+    .center {
+      display:none;
+    }
+    img:hover {
+        z-index:5;
+    }
+}
+@media screen and (max-width: 680px) {
+    .lowerleft1, .lowerleft2, .lowerleft3, .lowerright1, .lowerright2, .lowerright3,
+    .upperleft1, .upperleft2, .upperleft3, .upperright1, .upperright2, .upperright3 {
+        position:relative;
+    }
+
+    header {
+        width:95%;
+        position:static;
+    }
+
+    img {
+        max-width:100%;
+    }
+
+    .container {
+        width:70%;
+        height:auto;
+    }
+    .center {display:none;}
+
 }
