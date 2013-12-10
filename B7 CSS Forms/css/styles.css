@@ -1,36 +1,114 @@
+body {
+    font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+    width:90%;
+    margin:5% auto;
+}
+
+fieldset {
+    width:55%;
+}
+
+input[type=submit] {
+    border-radius: 5px;
+    border: 0;
+    width: 40%;
+    height:35px;
+    font-family: Tahoma, sans-serif;
+    font-size: 100%;
+    font-weight: 900;
+    background: #f4f4f4;
+    margin-left:60%;
+}
+
+div {
+    margin-top:40px;
+}
+
+.lessspace {
+    margin-top:10px;
+}
+
+label, input, select {
+    display:inline-block;
+}
+.inline {
+    display:inline;
+}
+
+.alignright {
+    margin-left:33%;
+}
+
+label {
+    width:30%;
+    text-align:right;
+    margin-right:2%;
+}
+input.box, textarea {width:60%;}
+
+
+h1, h2, h4 {
+    font-family: 'Electrolize', sans-serif;
+    font-weight: 900;
+}
+
+footer {
+    position:fixed;
+    bottom:10px;
+    right:2%;
+}
+
 .vertalign * {
     vertical-align:middle;
 }
-
-
-output {
-    position: absolute;
-    background-image: -webkit-gradient(linear, left top, left bottom, from(#444444), to(#999999));
-    background-image: -webkit-linear-gradient(top, #444444, #999999);
-    background-image: -moz-linear-gradient(top, #444444, #999999);
-    background-image: -ms-linear-gradient(top, #444444, #999999);
-    background-image: -o-linear-gradient(top, #444444, #999999);
-    width: 40px;
-    height: 30px;
-    text-align: center;
-    color: white;
-    border-radius: 10px;
-    display: inline-block;
-    font: bold 15px/30px Georgia;
-    bottom: 175%;
-    left: 0;
-    margin-left: -1%;
+.bottom {
+    margin-bottom:30px;
 }
-output:after {
-    content: "";
-    position: absolute;
-    width: 0;
-    height: 0;
-    border-top: 10px solid #999999;
-    border-left: 5px solid transparent;
-    border-right: 5px solid transparent;
-    top: 100%;
-    left: 50%;
-    margin-left: -5px;
-    margin-top: -1px;
+
+@media screen and (min-width:768px) {
+}
+
+@media screen and (min-width:480px) and (max-width: 767px) {
+    body{background-color: yellow;
+        margin:2.5% auto;
+    }
+    fieldset {
+        width:95%;
+    }
+
+    #color {
+        height:40px;
+        width:30%;
+    }
+}
+
+@media screen and (max-width:479px) {
+    body{background-color: red;
+        margin:2.5% auto;
+    }
+
+    fieldset {
+        width:95%;
+    }
+
+    label{
+        width:100%;
+        text-align: left;
+        font-size: 125%;
+    }
+    input.box, textarea {
+        width:100%;
+    }
+    input.box, #zip, #tel, input[type=date]{
+        height:25px;
+    }
+
+    #color {
+        height:40px;
+        width:30%;
+    }
+    input[type=submit] {
+        width:90%;
+        margin-left:5%;
+    }
 }
