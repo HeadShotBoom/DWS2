@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>B7 CSS Forms</title>
+    <link href="css/styles.css" rel="stylesheet"/>
+    <!--Script to update textbox next to range slider as it is moved -->
+    <script type="text/javascript">
+        function updateTextInput(val) {
+            document.getElementById('textInput').value=val;
+        }
+    </script>
+    <!-- Loads the polyfills for cross browser compatibility -->
+    <script src="js/jquery-1.10.2.min.js"></script>
+    <script src="js-webshim/minified/extras/modernizr-custom.js"></script>
+    <script src="js-webshim/minified/polyfiller.js"></script>
+    <script>
+        //load all defined
+        $.webshims.polyfill()
+    </script>
+</head>
+<body>
+<header>
+    <h1>STOP, LOOK, And Complete a Survey</h1>
+    <p>Below is a Survey completed using HTML 5 and CSS</p>
+</header>
+<form id="survey" method="post">
+    <hgroup>
+    <h2>This is a Survey!</h2>
+    <h4>Please fill out all required fields, or your request wil be rejected and everyone will know you are a simple person that cant follow simple directions</h4>
+    </hgroup>
+    <fieldset>
+        <legend>Demographic Information</legend>
+        <div>
+            <label for="name">Full Name</label>
+            <input id="name" name="name" type="text" placeholder="Daniel Carroll" required aria-required="true" autofocus>
+        </div>
+        <div>
+            <label for="street">Street Address</label>
+            <input id="street" name="street" type="text" placeholder="123 Anystreet Drive" required aria-required="true">
+        </div>
+        <div>
+            <label for="street2">Address Cont.</label>
+            <input id="street2"  name="street2" type="text" placeholder="Apartment 14">
+        </div>
+        <div>
+            <label for="city">City</label>
+            <input id="city" name="city" type="text" placeholder="Windchestersonfieldsville" maxlength="30" required aria-required="true">
+        </div>
+        <div>
+            <label for="state">Choose a state</label>
+            <select id="state" name="state">
+                <option value="select">Select a state..</option>
+                <option value="AL">Alabama</option>
+                <option value="AK">Alaska</option>
+                <option value="AZ">Arizona</option>
+                <option value="AR">Arkansas</option>
+                <option value="CA">California</option>
+                <option value="CO">Colorado</option>
+                <option value="CT">Connecticut</option>
+                <option value="DE">Delaware</option>
+                <option value="DC">District of Columbia</option>
+                <option value="FL">Florida</option>
+                <option value="GA">Georgia</option>
+                <option value="HI">Hawaii</option>
+                <option value="ID">Idaho</option>
+                <option value="IL">Illinois</option>
+                <option value="IN">Indiana</option>
+                <option value="IA">Iowa</option>
+                <option value="KS">Kansas</option>
+                <option value="KY">Kentucky</option>
+                <option value="LA">Louisiana</option>
+                <option value="ME">Maine</option>
+                <option value="MD">Maryland</option>
+                <option value="MA">Massachusetts</option>
+                <option value="MI">Michigan</option>
+                <option value="MN">Minnesota</option>
+                <option value="MS">Mississippi</option>
+                <option value="MO">Missouri</option>
+                <option value="MT">Montana</option>
+                <option value="NE">Nebraska</option>
+                <option value="NV">Nevada</option>
+                <option value="NH">New Hampshire</option>
+                <option value="NJ">New Jersey</option>
+                <option value="NM">New Mexico</option>
+                <option value="NY">New York</option>
+                <option value="NC">North Carolina</option>
+                <option value="ND">North Dakota</option>
+                <option value="OH">Ohio</option>
+                <option value="OK">Oklahoma</option>
+                <option value="OR">Oregon</option>
+                <option value="PA">Pennsylvania</option>
+                <option value="RI">Rhode Island</option>
+                <option value="SC">South Carolina</option>
+                <option value="SD">South Dakota</option>
+                <option value="TN">Tennessee</option>
+                <option value="TX">Texas</option>
+                <option value="UT">Utah</option>
+                <option value="VT">Vermont</option>
+                <option value="VA">Virginia</option>
+                <option value="WA">Washington</option>
+                <option value="WV">West Virginia</option>
+                <option value="WI">Wisconsin</option>
+                <option value="WY">Wyoming</option>
+            </select>
+        </div>
+        <div>
+        <label for="zip">Zip Code</label>
+        <input id="zip" name="zip" type="number" min="11111" max="99999"  placeholder="12345" required aria-required="true">
+        </div>
+        <div>
+            <label for="birthday">Date of Birth</label>
+            <input id="birthday" name="birthday" type="date" required aria-required="true"/>
+        </div>
+        <div>
+            <label for="tel">Phone Number</label>
+            <input id="tel" name="tel" type="tel" placeholder="(407)619-2560" required aria-required="true" autocomplete="off">
+        </div>
+        <div class="addspace">
+            <label for="color">What's your favorite color</label>
+            <input id="color" name="color" type="color" required aria-required="true">
+        </div>
+        <div class="vertalign">
+        <label for="why">Why is that your favorite color?</label>
+        <textarea id="why" rows="5" maxlength="1000" placeholder="I like pink because I spent too much time at Paris Island." required aria-required="true"></textarea>
+        </div>
+        <div class="addspace" >
+            <label for="work">Place of employment</label>
+            <input id="work" name="work" type="text">
+            <input type="checkbox" name="vehicle" value="nope">I am Unemployed
+        </div>
+        <div class="vertalign">
+            <label for="howlong">Years with current employer?</label>
+            <input id="howlong" name="howlong" type="range" min="1" max="20" value="5" onchange="updateTextInput(this.value);">
+            <input type="text" id="textInput" value="" size="2" disabled>
+        </div>
+        <div>
+            <label for="start">What date did you start working there?</label>
+            <input id="start" name="startdate" type="date" required aria-required="true">
+        </div>
+        <div>
+            <label>Would you like us to sell your information?</label>
+            <label for="spam">Yes</label>
+            <input id="spam" type="radio" name="spam" value="yes" />
+            <label for="nospam">No</label>
+            <input id="nospam" type="radio" name="nospam" value="no" />
+        </div>
+    </fieldset>
+</form>
+
+<h2>Just Kidding</h2>
+<p>Your information wont be sent anywhere, in fact we wont even store your information. Why? Because the block of instruction that teaches us WebDev students how to do that hasnt been reached by the students in DWS2 yet. Your lucky though, this student saw some articles on PHP that he got interested in and almost gained the motivation to figure it out. Alas, a lazy stroke has taken over him so he will end his HTML5 markup and begin CSS3 styling.</p>
+
+<footer>
+    &copy Daniel Carroll 2013
+</footer>
+</body>
+</html>
