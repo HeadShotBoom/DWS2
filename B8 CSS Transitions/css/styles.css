@@ -1,0 +1,135 @@
+body {
+    width:95%;
+    margin:2.5% auto;
+}
+
+.gallery {
+    width:100%;
+}
+
+img {
+    max-width: 100%;
+    position:relative;
+    margin-bottom:50px;
+    opacity: .5;
+}
+
+div.two p, div.three p {
+    position:relative;
+    top:-150px;
+    left:3%;
+      }
+
+/*Transitions*/
+/*Image 1*/
+.artGroup {
+    display:block;
+    width:800px;
+    height:425px;
+    position:relative;
+    margin-bottom:30px;
+    margin-right:20px;
+    float:left;
+}
+.artwork {
+    display:block;
+    width:100%;
+    height:100%;
+}
+.artGroup img {
+    width:100%;
+    height:100%;
+    position:absolute;
+    display:block;
+}
+.artGroup .detail {
+    display:block;
+    width:100%;
+    height:100%;
+    position:absolute;
+    background:#fff;
+}
+.artGroup .detail p {
+    font-size: 12px;
+    text-align: left;
+}
+/*	Without CSS3 */
+.artGroup.slide {
+    overflow: hidden;
+}
+.artGroup.slide .detail {
+    bottom:-364px;
+}
+/*  CSS3 Flip */
+.artGroup.flip {
+    -webkit-perspective:800px;
+    -moz-perspective:800px;
+    -ms-perspective:800px;
+    -o-perspective:800px;
+    perspective:800px;
+}
+.artGroup.flip .artwork {
+    -webkit-transition: -webkit-transform 1s;
+    -moz-transition: -moz-transform 1s;
+    -ms-transition: -ms-transform 1s;
+    -o-transition: -o-transform 1s;
+    transition: transform 1s;
+    -webkit-transform-style: preserve-3d;
+    -moz-transform-style: preserve-3d;
+    -ms-transform-style: preserve-3d;
+    -o-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+}
+.artGroup.flip .detail, .artGroup.flip .theFlip {
+    -webkit-transform: rotateY(-180deg);
+    -moz-transform: rotateY(-180deg);
+    -ms-transform: rotateY(-180deg);
+    -o-transform: rotateY(-180deg);
+    transform: rotateY(-180deg);
+}
+.artGroup.flip img, .artGroup.flip .detail {
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    -ms-backface-visibility: hidden;
+    -o-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+@media screen and (max-width: 840px){
+    div.artGroup {
+        display:none;
+    }
+}
+
+/*Image 2*/
+div.two img {
+    -webkit-transition: all 1500ms cubic-bezier(0.585, 0, 0.585, 1.000); /* older webkit */
+    -webkit-transition: all 1500ms cubic-bezier(0.585, -0.425, 0.585, 1.000);
+    -moz-transition: all 1500ms cubic-bezier(0.585, -0.425, 0.585, 1.000);
+    -o-transition: all 1500ms cubic-bezier(0.585, -0.425, 0.585, 1.000);
+    transition: all 1500ms cubic-bezier(0.585, -0.425, 0.585, 1.000); /* custom */
+
+    -webkit-transition-timing-function: cubic-bezier(0.585, 0, 0.585, 1.000); /* older webkit */
+    -webkit-transition-timing-function: cubic-bezier(0.585, -0.425, 0.585, 1.000);
+    -moz-transition-timing-function: cubic-bezier(0.585, -0.425, 0.585, 1.000);
+    -o-transition-timing-function: cubic-bezier(0.585, -0.425, 0.585, 1.000);
+    transition-timing-function: cubic-bezier(0.585, -0.425, 0.585, 1.000); /* custom */
+}
+div.two img:hover {
+    left:60%;
+}
+div.three img {
+    -webkit-transition: all 1500ms cubic-bezier(1.000, 0.000, 0.000, 1.000);
+    -moz-transition: all 1500ms cubic-bezier(1.000, 0.000, 0.000, 1.000);
+    -o-transition: all 1500ms cubic-bezier(1.000, 0.000, 0.000, 1.000);
+    transition: all 1500ms cubic-bezier(1.000, 0.000, 0.000, 1.000); /* easeInOutExpo */
+
+    -webkit-transition-timing-function: cubic-bezier(1.000, 0.000, 0.000, 1.000);
+    -moz-transition-timing-function: cubic-bezier(1.000, 0.000, 0.000, 1.000);
+    -o-transition-timing-function: cubic-bezier(1.000, 0.000, 0.000, 1.000);
+    transition-timing-function: cubic-bezier(1.000, 0.000, 0.000, 1.000); /* easeInOutExpo */
+}
+div.three img:hover {
+    -ms-transform: translate(0px,-150px); /* IE 9 */
+    -webkit-transform: translate(0px,-150px); /* Safari and Chrome */
+    transform: translate(0px, -150px);
+}

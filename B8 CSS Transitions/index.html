@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--[if lt IE 9]>
+<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <link href="css/styles.css" type="text/css" rel="stylesheet">
+    <script src="http://maps.google.com/maps/api/js?sensor=true" type="text/javascript"></script>
+    <script type="text/javascript" src="_scripts/jquery.1.7.1.min.js"></script>
+    <script type="text/javascript" src="_scripts/jquery.easing.1.3.js"></script>
+    <script type="text/javascript" src="_scripts/modernizr.2.5.3.min.js"></script>
+    <script type="text/javascript">
+        $(function () {
+            if ($('html').hasClass('csstransforms3d')) {
+                $('.artGroup').removeClass('slide').addClass('flip');
+                $('.artGroup.flip').hover(
+                        function () {
+                            $(this).find('.artwork').addClass('theFlip');
+                        },
+                        function () {
+                            $(this).find('.artwork').removeClass('theFlip');
+                        }
+                );
+            } else {
+                $('.artGroup').hover(
+                        function () {
+                            $(this).find('.detail').stop().animate({bottom:0}, 500, 'easeOutCubic');
+                        },
+                        function () {
+                            $(this).find('.detail').stop().animate({bottom: ($(this).height() * -1) }, 500, 'easeOutCubic');
+                        }
+                );
+
+            }
+
+        });
+    </script>
+    <title>B7 CSS Forms</title>
+    <link href="css/styles.css" rel="stylesheet"/>
+</head>
+<body>
+<header>
+    <h1>Gallery of Images</h1>
+    <p>This is an interactive gallery where I will show off some of HTML5 & CSS3's transform, transition, and animation features.</p>
+</header>
+
+<div class="gallery">
+    <div class="artGroup slide">
+        <div class="artwork"> <img src="img/1.jpg" alt="gator">
+            <div class="detail">
+                <h3>Gator</h3>
+                <p>Photo - 2012<br>
+                    This is an image I captured at the Orlando Wetlands park this summer. The gators were Boss.</p>
+            </div>
+        </div>
+    </div>
+<div class="two">
+<img src="img/2.jpg" alt="car">
+    <p>This is a pretty hot car I took a picture of in Celebration Florida.</p>
+</div>
+    <div class="three">
+<img src="img/3.jpg" alt="busan">
+        <p>This was my view from the helipad atop Trump Tower #2 in Busan South Korea</p>
+    </div>
+    <div class="four">
+<img src="img/4.jpg" alt="boat">
+<p>This is a Pretty Boat</p>
+    </div>
+    <div class="five">
+<img src="img/5.jpg" alt="fire">
+<p>This is my burning steel wool inside an aircraft hanger.</p>
+    </div>
+    <div class="six">
+<img src="img/6.jpg" alt="deadman">
+        <p>This is a man laying on the steps of the busiest subway station in S. Korea.</p>
+    </div>
+</div>
+
+</body>
+</html>
