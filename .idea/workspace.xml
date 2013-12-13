@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aca44643-d09b-457a-82e3-33f1e1c99afa" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/B5 Responsive with Foundation/.idea/workspace.xml" afterPath="$PROJECT_DIR$/B5 Responsive with Foundation/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/B8 CSS Transitions/.idea/workspace.xml" afterPath="$PROJECT_DIR$/B8 CSS Transitions/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/B9 Final/css/custom.css" afterPath="$PROJECT_DIR$/B9 Final/css/custom.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/B9 Final/index.html" afterPath="$PROJECT_DIR$/B9 Final/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/B9 Final/.idea/workspace.xml" afterPath="$PROJECT_DIR$/B9 Final/.idea/workspace.xml" />
     </list>
     <ignored path="DWS2.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -29,7 +30,7 @@
       <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/B1 Selectors/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-1.317716" vertical-offset="900" max-vertical-offset="1875">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.30746704" vertical-offset="210" max-vertical-offset="1875">
               <folding />
             </state>
           </provider>
@@ -148,7 +149,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/Ex_Files_CSS_Trans_Depth" />
   </component>
   <component name="RunManager">
     <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
@@ -200,7 +201,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="20" y="22" width="1400" height="843" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -242,7 +243,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/B1 Selectors/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-1.317716" vertical-offset="900" max-vertical-offset="1875">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.30746704" vertical-offset="210" max-vertical-offset="1875">
           <folding />
         </state>
       </provider>

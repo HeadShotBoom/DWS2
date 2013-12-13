@@ -4,6 +4,8 @@
 <head><!-- Start Of Header -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='http://fonts.googleapis.com/css?family=IM+Fell+Great+Primer' rel='stylesheet' type='text/css'>
+
     <title>DWS2 Final Project</title><!-- Page title -->
     <link href="css/foundation.css" type="text/css" rel="stylesheet" /> <!-- Link to CSS -->
     <link href="css/normalize.css" type="text/css" rel="stylesheet" />
@@ -14,6 +16,7 @@
         function changeClass()
         {
             document.getElementById("main-div").className = "visible";
+            document.getElementById("movie").className = "hidden";
         }
     </script>
 </head><!-- End Of Header -->
@@ -21,6 +24,15 @@
 <header>
     <h1>Highlights of DWS2</h1>
     <p>In this, My final project, I will highlight some of the things we learned in this course. I will describe the things I learned and demonstrate those elements in the styling of this page.</p>
+    <p>If you would like to see a video describing how AWESOME this class and our instructor is, watch the video below.</p>
+    <div id="movie" class="flex-video">
+    <video class="none" width="640" height="480" autoplay loop>
+        <source src="img/awesome.mp4" type="video/mp4">
+        <object data="awesome.mp4" width="640" height="480">
+            <embed src="img/awesome.mp4" width="640" height="480">
+        </object>
+    </video>
+    </div>
     <p>If you would like to know more, <a href="#" id="dasbutton" class="button tiny radius" onclick="changeClass()">click here to begin.</a></p>
 </header>
 <nav>Space For Navigation bar.</nav>
@@ -36,7 +48,7 @@
             <li>Pseudo-element</li>
             <li>Negation</li>
             <li>Combinators</li>
-            <li>Groupong</li>
+            <li>Grouping</li>
             <li>Origin</li>
             <li>!important</li>
             <li>Inheritance</li>
