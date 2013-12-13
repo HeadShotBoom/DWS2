@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<!--[if IE 9]><html class="lt-ie10" lang="en" > <![endif]-->
+<html class="no-js" lang="en" >
+<head><!-- Start Of Header -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DWS2 Final Project</title><!-- Page title -->
+    <link href="css/foundation.css" type="text/css" rel="stylesheet" /> <!-- Link to CSS -->
+    <link href="css/normalize.css" type="text/css" rel="stylesheet" />
+    <link href="css/custom.css" type="text/css" rel="stylesheet" />
+    <script src="js/vendor/custom.modernizr.js"></script>
+    <!--[if lt IE 9]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]--> <!-- IE Compatibility Mode -->
+    <script type="text/javascript">
+        function changeClass()
+        {
+            document.getElementById("main-div").className = "visible";
+        }
+    </script>
+</head><!-- End Of Header -->
+<body>
+<header>
+    <h1>Highlights of DWS2</h1>
+    <p>In this, My final project, I will highlight some of the things we learned in this course. I will describe the things I learned and demonstrate those elements in the styling of this page.</p>
+    <p>If you would like to know more, <a href="#" id="dasbutton" class="button tiny radius" onclick="changeClass()">click here to begin.</a></p>
+</header>
+<nav>Space For Navigation bar.</nav>
+<article id="main-div" class="hidden">
+    <section id="selectors">
+        <h2>B1 Selectors</h2>
+        <p>In this assignment we learned about some more advances CSS selectors. We also discussed the cascade in more detail than we had in previous courses. We also learned how to calculate specificity.</p>
+        <p>Some of the highlights from that assignment include:</p>
+        <ul>
+            <li>Vendor Prefixes</li>
+            <li>Attribute</li>
+            <li>Pseudo-class</li>
+            <li>Pseudo-element</li>
+            <li>Negation</li>
+            <li>Combinators</li>
+            <li>Groupong</li>
+            <li>Origin</li>
+            <li>!important</li>
+            <li>Inheritance</li>
+            <li>Calculating Specificity</li>
+        </ul>
+
+    </section>
+    <section id="responsive">
+        <h2>B2 Responsive from Scratch</h2>
+        <p>In this class we explored what Responsive Web Design is and why we need to learn how to implement the technique into our design process.</p>
+        <p>The bulk of the information was about converting fixed measurements of elements and fonts to variable sizes.</p>
+        <p>We also learned about the <strong>MEDIA QUERY</strong>, a very useful tool for measuring the browsers width and applying a set of CSS rules only when the parameters of that query are met.</p>
+    </section>
+    <section id="frameworks">
+        <h2>B3- B5 Frameworks</h2>
+        <p>In assignments 3 through 5 we learned about a few of the most popular frameworks.</p>
+        <p>CSS frameworks are pre-prepared libraries that are meant to allow for easier, more standards-compliant styling of web pages using the Cascading Style Sheets language.</p>
+        <p>Frameworks greatly increase the speed at which a standard website can be created and styled because they have various grid systems programmed into them. Usually, achieve a desired layout only involves the addition of specific class to various elements on your page.</p>
+        <div>
+            <img src="img/skeleton.jpg" alt="Skeleton Framework"/>
+            <p>Skeleton Framework</p>
+        </div>
+        <div>
+            <img src="img/bootstrap.jpg" alt="Bootstrap Framework"/>
+            <p>Bootstrap Framework</p>
+        </div>
+        <div>
+            <img src="img/foundation.jpg" alt="Foundation Framework"/>
+            <p>Foundation Framework</p>
+        </div>
+    </section>
+    <section id="position">
+        <h2>B6 CSS Positioning</h2>
+        <p>In this class we used various positioning techniques to... position elements in various locations other than where they would normally fall in the normal cascade of HTML elements.</p>
+        <p>The elements we focused on are:</p>
+        <table>
+            <tr>
+                <th>Static</th>
+                <td>This is the default setting. Elements fall as they would without you writing this code.</td>
+            </tr>
+            <tr>
+                <th>Relative</th>
+                <td>This property allows you to position child elements relative to their parent element.</td>
+            </tr>
+            <tr>
+                <th>Absolute</th>
+                <td>This property positions the element relative to the window without considering the parent element</td>
+            </tr>
+            <tr>
+                <th>Fixed</th>
+                <td>Elements styled in this manner are removed from the normal flow of things and are in a single location, regardless of scroll position.</td>
+            </tr>
+            <tr>
+                <th>Z-Index</th>
+                <td>This element controls how overlapping elements stack on each other.</td>
+            </tr>
+        </table>
+    </section>
+    <section id="forms">
+        <h2>B7 CSS Forms</h2>
+        <p>Although pre-styled in frameworks, this assignment gave a VERY in-depth review of HTML forms and their functions. Forms are the primary means of a user to communicate data to a website, therefor smart form design is pivotal to website success.</p>
+    </section>
+<section id="tranny">
+    <h2>B8 Transitions, Transformations, and Animations OH MY!</h2>
+    <p>This assignment unleashed a plethora of possibilities by turning our instant CSS changes to smooth and timed changes. Many of these changes you will notice on this site.</p>
+    <p>Some of the elements we learned about are:</p>
+    <ul>
+        <li>Transitions</li>
+        <li>Transforms</li>
+        <li>Translate</li>
+        <li>Scale</li>
+        <li>Rotate</li>
+        <li>Skew</li>
+    </ul>
+</section>
+</article>
+</body>
+</html>

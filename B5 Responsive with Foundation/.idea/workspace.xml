@@ -23,19 +23,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="downeaster.html" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="downeaster.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/downeaster.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="78" selection-start="180" selection-end="250" vertical-scroll-proportion="-0.0" vertical-offset="75" max-vertical-offset="4155">
+            <state line="33" column="18" selection-start="2128" selection-end="2128" vertical-scroll-proportion="0.6551205" vertical-offset="60" max-vertical-offset="4155">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="custom.css" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="custom.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/custom.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="45" column="0" selection-start="495" selection-end="495" vertical-scroll-proportion="0.828816" vertical-offset="94" max-vertical-offset="795">
+            <state line="45" column="0" selection-start="495" selection-end="495" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="795">
               <folding />
             </state>
           </provider>
@@ -146,17 +146,9 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../B9 Final" />
   </component>
   <component name="RunManager">
-    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
-      <option name="VMOptions" />
-      <option name="arguments" />
-      <option name="filePath" />
-      <option name="scope" value="ALL" />
-      <option name="testName" />
-      <method />
-    </configuration>
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
       <option name="VMOptions" />
       <option name="arguments" />
@@ -167,15 +159,23 @@
       <option name="showConsoleOnStdOut" value="false" />
       <method />
     </configuration>
+    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
+      <option name="VMOptions" />
+      <option name="arguments" />
+      <option name="filePath" />
+      <option name="scope" value="ALL" />
+      <option name="testName" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma" singleton="true" config-file="">
+      <envs />
+      <method />
+    </configuration>
     <configuration default="true" type="JSTestDriver:ConfigurationType" factoryName="JsTestDriver">
       <setting name="configLocationType" value="CONFIG_FILE" />
       <setting name="settingsFile" value="" />
       <setting name="serverType" value="INTERNAL" />
       <setting name="preferredDebugBrowser" value="CHROME" />
-      <method />
-    </configuration>
-    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma" singleton="true" config-file="">
-      <envs />
       <method />
     </configuration>
     <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true">
@@ -232,6 +232,34 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/downeaster.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="78" selection-start="180" selection-end="250" vertical-scroll-proportion="0.0" vertical-offset="75" max-vertical-offset="4155">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/custom.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="45" column="0" selection-start="495" selection-end="495" vertical-scroll-proportion="0.0" vertical-offset="94" max-vertical-offset="795">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/normalize.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="121" column="2" selection-start="2279" selection-end="2281" vertical-scroll-proportion="0.0" vertical-offset="1590" max-vertical-offset="6240">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/foundation.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2967" column="41" selection-start="72751" selection-end="72751" vertical-scroll-proportion="0.0" vertical-offset="44135" max-vertical-offset="80175">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/downeaster.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="5" column="78" selection-start="180" selection-end="250" vertical-scroll-proportion="0.0" vertical-offset="75" max-vertical-offset="4155">
@@ -302,16 +330,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/downeaster.html">
+    <entry file="file://$PROJECT_DIR$/css/custom.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="78" selection-start="180" selection-end="250" vertical-scroll-proportion="-0.0" vertical-offset="75" max-vertical-offset="4155">
+        <state line="45" column="0" selection-start="495" selection-end="495" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="795">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/custom.css">
+    <entry file="file://$PROJECT_DIR$/downeaster.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="45" column="0" selection-start="495" selection-end="495" vertical-scroll-proportion="0.828816" vertical-offset="94" max-vertical-offset="795">
+        <state line="33" column="18" selection-start="2128" selection-end="2128" vertical-scroll-proportion="0.6551205" vertical-offset="60" max-vertical-offset="4155">
           <folding />
         </state>
       </provider>
