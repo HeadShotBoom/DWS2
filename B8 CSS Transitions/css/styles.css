@@ -1,35 +1,145 @@
 body {
     width:95%;
     margin:2.5% auto;
+    font-family: "Lucida Grande", "MS Shell Dlg", "Calibri", sans-serif;
+    background-color: #e0ffff;
+}
+
+header {
+    background-color: #f5f5dc;
+    padding:3%;
+    border:4px solid #2f4f4f;
+}
+
+h1 {
+    font-family: 'Oleo Script Swash Caps', cursive;
 }
 
 .gallery {
-    width:100%;
+    width:75%;
+    margin:2.5% auto;
 }
 
 img {
     max-width: 100%;
     position:relative;
-    margin-bottom:50px;
-    opacity: .5;
+    border:4px solid #2f4f4f;
+    padding:1%;
+    /*margin-bottom:25px;*/
+    /*opacity: .5;*/
 }
 
-div.two p, div.three p {
+div.two p, div.three p, div.four p, div.five p{
     position:relative;
-    top:-150px;
+    top:150px;
     left:3%;
+    width:90%;
       }
+div.six p {
+    position:relative;
+    top:100px;
+    left:2%;
+    width:50%;
+}
 
 /*Transitions*/
+
 /*Image 1*/
+div.two img {
+    -webkit-transition: all 1500ms cubic-bezier(0.585, 0, 0.585, 1.000); /* older webkit */
+    -webkit-transition: all 1500ms cubic-bezier(0.585, -0.425, 0.585, 1.000);
+    -moz-transition: all 1500ms cubic-bezier(0.585, -0.425, 0.585, 1.000);
+    -o-transition: all 1500ms cubic-bezier(0.585, -0.425, 0.585, 1.000);
+    transition: all 1500ms cubic-bezier(0.585, -0.425, 0.585, 1.000); /* custom */
+
+}
+div.two img:hover {
+    left:100%;
+}
+/*Image 2*/
+div.three img {
+    -webkit-transition: all 1500ms cubic-bezier(1.000, 0.000, 0.000, 1.000);
+    -moz-transition: all 1500ms cubic-bezier(1.000, 0.000, 0.000, 1.000);
+    -o-transition: all 1500ms cubic-bezier(1.000, 0.000, 0.000, 1.000);
+    transition: all 1500ms cubic-bezier(1.000, 0.000, 0.000, 1.000); /* easeInOutExpo */
+
+}
+div.three img:hover {
+    -webkit-transform: translate(0px,150px) scale(0.8, 0.8); /* Safari and Chrome */
+    -moz-transform: translate(0px,150px) scale(0.8, 0.8); /* Safari and Chrome */
+    -ms-transform: translate(0px,150px) scale(0.8, 0.8); /* Safari and Chrome */
+    -o-transform: translate(0px,150px) scale(0.8, 0.8); /* IE 9 */
+    transform: translate(0px, 150px) scale(0.8, 0.8);
+}
+/*Image 3*/
+div.four img {
+    -webkit-transition: all 2000ms cubic-bezier(0.540, 0, 0.630, 1); /* older webkit */
+    -webkit-transition: all 2000ms cubic-bezier(0.540, -0.600, 0.630, 1.650);
+    -moz-transition: all 2000ms cubic-bezier(0.540, -0.600, 0.630, 1.650);
+    -o-transition: all 2000ms cubic-bezier(0.540, -0.600, 0.630, 1.650);
+    transition: all 2000ms cubic-bezier(0.540, -0.600, 0.630, 1.650); /* custom */
+
+}
+div.four img:hover {
+    -webkit-transform: rotate(450deg) ;
+    -moz-transform: rotate(450deg) ;
+    -o-transform: rotate(450deg) ;
+    -ms-transform: rotate(450deg) ;
+    transform: rotate(450deg) ;
+}
+/*Image 4*/
+div.five img {
+    -webkit-transition-property: opacity;
+    -moz-transition-property:  opacity;
+    -o-transition-property: opacity;
+    transition-property: opacity;
+
+    -webkit-transition-duration: 2s;
+    -moz-transition-duration: 2s;
+    -o-transition-duration: 2s;
+    transition-duration: 2s;
+
+    -webkit-transition-delay: .01s;
+    -moz-transition-delay: .01s;
+    -o-transition-delay: .01s;
+    transition-delay: .01s;
+
+    -webkit-transition-timing-function: cubic-bezier(0.540, 0, 0.630, 1); /* older webkit */
+    -webkit-transition-timing-function: cubic-bezier(0.540, -0.600, 0.630, 1.650);
+    -moz-transition-timing-function: cubic-bezier(0.540, -0.600, 0.630, 1.650);
+    -o-transition-timing-function: cubic-bezier(0.540, -0.600, 0.630, 1.650);
+    transition-timing-function: cubic-bezier(0.540, -0.600, 0.630, 1.650); /* custom */
+
+}
+div.five img:hover{
+    opacity:0;
+}
+/*Image 5*/
+div.six img {
+    -webkit-transition: all 500ms cubic-bezier(0.645, 0.045, 0.355, 1.000);
+    -moz-transition: all 500ms cubic-bezier(0.645, 0.045, 0.355, 1.000);
+    -o-transition: all 500ms cubic-bezier(0.645, 0.045, 0.355, 1.000);
+    transition: all 500ms cubic-bezier(0.645, 0.045, 0.355, 1.000); /* easeInOutCubic */
+}
+div.six img:hover {
+    -webkit-transform: skew(-60deg, -40deg) ;
+    -moz-transform: skew(-60deg, -40deg) ;
+    -o-transform: skew(-60deg, -40deg) ;
+    -ms-transform: skew(-60deg, -40deg) ;
+    transform: skew(-60deg, -40deg) ;
+
+}
+/*Image 6*/
 .artGroup {
     display:block;
     width:800px;
     height:425px;
     position:relative;
     margin-bottom:30px;
+    margin-top:65px;
     margin-right:20px;
     float:left;
+    clear:both;
 }
 .artwork {
     display:block;
@@ -86,6 +196,9 @@ div.two p, div.three p {
     -ms-transform: rotateY(-180deg);
     -o-transform: rotateY(-180deg);
     transform: rotateY(-180deg);
+    background-color: #e0ffff;
+
+
 }
 .artGroup.flip img, .artGroup.flip .detail {
     -webkit-backface-visibility: hidden;
@@ -94,42 +207,9 @@ div.two p, div.three p {
     -o-backface-visibility: hidden;
     backface-visibility: hidden;
 }
+/* Disables image with small screen*/
 @media screen and (max-width: 840px){
     div.artGroup {
         display:none;
     }
-}
-
-/*Image 2*/
-div.two img {
-    -webkit-transition: all 1500ms cubic-bezier(0.585, 0, 0.585, 1.000); /* older webkit */
-    -webkit-transition: all 1500ms cubic-bezier(0.585, -0.425, 0.585, 1.000);
-    -moz-transition: all 1500ms cubic-bezier(0.585, -0.425, 0.585, 1.000);
-    -o-transition: all 1500ms cubic-bezier(0.585, -0.425, 0.585, 1.000);
-    transition: all 1500ms cubic-bezier(0.585, -0.425, 0.585, 1.000); /* custom */
-
-    -webkit-transition-timing-function: cubic-bezier(0.585, 0, 0.585, 1.000); /* older webkit */
-    -webkit-transition-timing-function: cubic-bezier(0.585, -0.425, 0.585, 1.000);
-    -moz-transition-timing-function: cubic-bezier(0.585, -0.425, 0.585, 1.000);
-    -o-transition-timing-function: cubic-bezier(0.585, -0.425, 0.585, 1.000);
-    transition-timing-function: cubic-bezier(0.585, -0.425, 0.585, 1.000); /* custom */
-}
-div.two img:hover {
-    left:60%;
-}
-div.three img {
-    -webkit-transition: all 1500ms cubic-bezier(1.000, 0.000, 0.000, 1.000);
-    -moz-transition: all 1500ms cubic-bezier(1.000, 0.000, 0.000, 1.000);
-    -o-transition: all 1500ms cubic-bezier(1.000, 0.000, 0.000, 1.000);
-    transition: all 1500ms cubic-bezier(1.000, 0.000, 0.000, 1.000); /* easeInOutExpo */
-
-    -webkit-transition-timing-function: cubic-bezier(1.000, 0.000, 0.000, 1.000);
-    -moz-transition-timing-function: cubic-bezier(1.000, 0.000, 0.000, 1.000);
-    -o-transition-timing-function: cubic-bezier(1.000, 0.000, 0.000, 1.000);
-    transition-timing-function: cubic-bezier(1.000, 0.000, 0.000, 1.000); /* easeInOutExpo */
-}
-div.three img:hover {
-    -ms-transform: translate(0px,-150px); /* IE 9 */
-    -webkit-transform: translate(0px,-150px); /* Safari and Chrome */
-    transform: translate(0px, -150px);
 }
