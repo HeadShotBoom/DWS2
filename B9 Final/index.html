@@ -10,7 +10,6 @@
     <link href="css/foundation.css" type="text/css" rel="stylesheet" /> <!-- Link to CSS -->
     <link href="css/normalize.css" type="text/css" rel="stylesheet" />
     <link href="css/custom.css" type="text/css" rel="stylesheet" />
-    <script src="js/vendor/custom.modernizr.js"></script>
     <!--[if lt IE 9]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]--> <!-- IE Compatibility Mode -->
     <script type="text/javascript">
         function changeClass()
@@ -19,25 +18,30 @@
             document.getElementById("movie").className = "hidden";
         }
     </script>
+    <script src="js/modernizr.js"></script>
 </head><!-- End Of Header -->
 <body>
 <header>
+   <div class="row">
+       <div class="small-12 columns">
     <h1>Highlights of DWS2</h1>
     <p>In this, My final project, I will highlight some of the things we learned in this course. I will describe the things I learned and demonstrate those elements in the styling of this page.</p>
     <p>If you would like to see a video describing how AWESOME this class and our instructor is, watch the video below.</p>
-    <div id="movie" class="flex-video">
-    <video class="none" width="640" height="480" autoplay loop>
-        <source src="img/awesome.mp4" type="video/mp4">
-        <object data="awesome.mp4" width="640" height="480">
-            <embed src="img/awesome.mp4" width="640" height="480">
-        </object>
-    </video>
-    </div>
-    <p>If you would like to know more, <a href="#" id="dasbutton" class="button tiny radius" onclick="changeClass()">click here to begin.</a></p>
+    <!--<div id="movie" class="flex-video">-->
+        <!--<iframe width="420" height="315" src="//www.youtube.com/embed/CKPACHU3elY?autoplay=1&controls=0&loop=1&playlist=CKPACHU3elY" frameborder="0" allowfullscreen ></iframe>-->
+        <!--<img src="img/foundation.jpg">-->
+    <!--</div>-->
+    <p>If you would like to know more, <a href="#" id="dasbutton" class="button radius" onclick="changeClass()">Click here to begin.</a></p>
+   </div>
+   </div>
 </header>
-<nav>Space For Navigation bar.</nav>
+<nav>
+
+</nav>
 <article id="main-div" class="hidden">
-    <section id="selectors">
+    <div class="row">
+        <div class="small-12 medium-4 columns">
+    <section id="selectors" >
         <h2>B1 Selectors</h2>
         <p>In this assignment we learned about some more advances CSS selectors. We also discussed the cascade in more detail than we had in previous courses. We also learned how to calculate specificity.</p>
         <p>Some of the highlights from that assignment include:</p>
@@ -56,34 +60,47 @@
         </ul>
 
     </section>
-    <section id="responsive">
+        </div>
+        <div class="small-12 medium-8 columns">
+        <section id="responsive">
         <h2>B2 Responsive from Scratch</h2>
         <p>In this class we explored what Responsive Web Design is and why we need to learn how to implement the technique into our design process.</p>
         <p>The bulk of the information was about converting fixed measurements of elements and fonts to variable sizes.</p>
         <p>We also learned about the <strong>MEDIA QUERY</strong>, a very useful tool for measuring the browsers width and applying a set of CSS rules only when the parameters of that query are met.</p>
-    </section>
-    <section id="frameworks">
+        </section>
+
+        <section id="frameworks">
         <h2>B3- B5 Frameworks</h2>
         <p>In assignments 3 through 5 we learned about a few of the most popular frameworks.</p>
         <p>CSS frameworks are pre-prepared libraries that are meant to allow for easier, more standards-compliant styling of web pages using the Cascading Style Sheets language.</p>
         <p>Frameworks greatly increase the speed at which a standard website can be created and styled because they have various grid systems programmed into them. Usually, achieve a desired layout only involves the addition of specific class to various elements on your page.</p>
-        <div>
-            <img src="img/skeleton.jpg" alt="Skeleton Framework"/>
-            <p>Skeleton Framework</p>
+         </section>
         </div>
-        <div>
-            <img src="img/bootstrap.jpg" alt="Bootstrap Framework"/>
-            <p>Bootstrap Framework</p>
         </div>
-        <div>
-            <img src="img/foundation.jpg" alt="Foundation Framework"/>
-            <p>Foundation Framework</p>
+        <div class="row">
+            <div class="small-12 small-push-1">
+                <h2>Here are some descriptive photos from the course.</h2>
+            </div>
+            <div class="small-12 push-2 columns">
+                <ul class="clearing-thumbs" data-clearing>
+                    <li><a href="img/victory.jpg"><img data-caption="This is How I think I will feel after receiving my final grade" src="img/small/victory-th.jpg"></a></li>
+                    <li><a href="img/kevin.jpg"><img data-caption="This is a Fancy Pants Marine" src="img/small/kevin-th.jpg"></a></li>
+                    <li><a href="img/skeleton.jpg"><img data-caption="Skeleton Framework is VERY basic" src="img/small/skeleton-th.jpg"></a></li>
+                    <li><a href="img/bootstrap.jpg"><img data-caption="I hate twitter enough to not use this framework" src="img/small/bootstrap-th.jpg"></a></li>
+                    <li><a href="img/foundation.jpg"><img data-caption="Foundation is the basis of this website" src="img/small/foundation-th.jpg"></a></li>
+                    <li><a href="img/header.png"><img data-caption="This is a screenshot of my header before it was fixed" src="img/small/header-th.jpg"></a></li>
+                </ul>
+            </div>
         </div>
-    </section>
-    <section id="position">
+
+<div class="row">
+    <section id="position" class="addspace">
+        <div class="small-12 medium-5 columns">
         <h2>B6 CSS Positioning</h2>
         <p>In this class we used various positioning techniques to... position elements in various locations other than where they would normally fall in the normal cascade of HTML elements.</p>
         <p>The elements we focused on are:</p>
+        </div>
+        <div class="small-12 medium-7 columns">
         <table>
             <tr>
                 <th>Static</th>
@@ -106,24 +123,107 @@
                 <td>This element controls how overlapping elements stack on each other.</td>
             </tr>
         </table>
+        </div>
     </section>
-    <section id="forms">
+</div>
+    <div class="row">
+    <section id="forms" class="addspace">
+        <div class="small-12 medium-3 columns">
         <h2>B7 CSS Forms</h2>
         <p>Although pre-styled in frameworks, this assignment gave a VERY in-depth review of HTML forms and their functions. Forms are the primary means of a user to communicate data to a website, therefor smart form design is pivotal to website success.</p>
+        </div>
+        <div class="small-12 medium-9 columns">
+            <form>
+            <div class="row">
+                <div class="large-12 columns">
+                    <label>Subject of your submission</label>
+                    <input type="text" placeholder="I Like Candy" />
+                </div>
+            </div>
+            <div class="row">
+                <div class="large-4 columns">
+                    <label>First Name</label>
+                    <input type="text" placeholder="Joe" />
+                </div> <div class="large-4 columns">
+                <label>Last Name</label>
+                <input type="text" placeholder="Dirt" />
+            </div>
+                <div class="large-4 columns">
+                    <div class="row collapse">
+                        <label>Website</label>
+                        <div class="small-9 columns">
+                            <input type="text" placeholder="www.bing" />
+                        </div>
+                        <div class="small-3 columns">
+                            <span class="postfix">.com</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="large-12 columns">
+                    <label>Select Type of Computer</label>
+                    <select>
+                        <option value="apple">Apple Laptop</option>
+                        <option value="ms">Windows Laptop</option>
+                        <option value="desk">Desktop</option>
+                        <option value="server">Unix Server</option>
+                    </select>
+                </div>
+            </div>
+            <div class="row">
+                <div class="large-6 columns">
+                    <label>Which are you</label>
+                    <input type="radio" name="radio" value="muggle" id="one"><label for="one">MUGGLE</label>
+                    <input type="radio" name="radio" value="half-blood" id="two"><label for="two">Half-Blood</label>
+                    <input type="radio" name="radio" value="pure-blood" id="three"><label for="three">Pure-Blood</label>
+                </div>
+                <div class="large-6 columns">
+                    <label>Check what you have witnessed</label>
+                    <input id="checkbox1" type="checkbox"><label for="checkbox1">Dementors In Surrey</label>
+                    <input id="checkbox2" type="checkbox"><label for="checkbox2">Harry Potters Scar</label>
+                </div>
+            </div>
+            <div class="row">
+                <div class="large-12 columns">
+                    <label>Describe how you feel about hemidemisemiquavers</label>
+                    <textarea placeholder="WTH IS A HEMIDEMISEMIQUAVER?"></textarea>
+                </div>
+            </div>
+        </form>
+        </div>
     </section>
-<section id="tranny">
-    <h2>B8 Transitions, Transformations, and Animations OH MY!</h2>
-    <p>This assignment unleashed a plethora of possibilities by turning our instant CSS changes to smooth and timed changes. Many of these changes you will notice on this site.</p>
-    <p>Some of the elements we learned about are:</p>
-    <ul>
-        <li>Transitions</li>
-        <li>Transforms</li>
-        <li>Translate</li>
-        <li>Scale</li>
-        <li>Rotate</li>
-        <li>Skew</li>
-    </ul>
-</section>
+    </div>
+    <div class="row">
+        <div class="small-12 columns">
+        <section id="tranny">
+            <h2>B8 Transitions, Transformations, and Animations OH MY!</h2>
+            <p>This assignment unleashed a plethora of possibilities by turning our instant CSS changes to smooth and timed changes. Many of these changes you will notice on this site.</p>
+            <div class="row">
+                <div class="small-4 columns">
+            <p>Some of the elements we learned about are:</p>
+                </div>
+                <div class="small-8 columns">
+                    <h3>HOVER OVER THESE!!!</h3>
+            <ul>
+                <li>Transitions</li>
+                <li>Transforms</li>
+                <li id="translate">Translate</li>
+                <li id="scale">Scale</li>
+                <li id="rotate">Rotate</li>
+                <li id="skew">Skew</li>
+            </ul>
+            </div>
+            </div>
+        </section>
+    </div>
+    </div>
 </article>
+
+<script src="js/jquery.js"></script>
+<script src="js/foundation.min.js"></script>
+<script>
+    $(document).foundation();
+</script>
 </body>
 </html>
