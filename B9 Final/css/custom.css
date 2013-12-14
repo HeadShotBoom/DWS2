@@ -13,9 +13,9 @@ header p {
     text-indent: 1%;
 }
 /* Hides Page Content Until Button is Clicked*/
-/*.hidden {*/
-    /*display:none;*/
-/*}*/
+.hidden {
+    display:none;
+}
 /*Reveals page content upon button click*/
 .visible {
     display:inline-block;
@@ -54,7 +54,7 @@ h1, h2, h3, h4, h5, h6 {
     25% {background-color: #996A11;}
     50% {background-color: #FFB483;}
     75% {background-color: #C8FFF2;}
-    100% {background-color: #54CC8D;}}
+    100% {background-color: #54CC8D;}
 }
 @keyframes headerBG {
     0% {background-color: #CCA254;}
@@ -98,4 +98,12 @@ header {
     -ms-transform: rotate(20deg) ;
     -o-transform: rotate(20deg) ;
     transform: rotate(20deg) ;
+}
+
+#skew:hover {
+    -webkit-transform: skew(49deg, 1deg) ;
+    -moz-transform: skew(49deg, 1deg) ;
+    -o-transform: skew(49deg, 1deg) ;
+    -ms-transform: skew(49deg, 1deg) ;
+    transform: skew(49deg, 1deg) ;
 }
