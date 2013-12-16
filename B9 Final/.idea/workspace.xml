@@ -23,10 +23,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="30" column="1" selection-start="1535" selection-end="1799" vertical-scroll-proportion="-17.208334" vertical-offset="37" max-vertical-offset="4095">
+            <state line="18" column="9" selection-start="1006" selection-end="1006" vertical-scroll-proportion="0.34114203" vertical-offset="37" max-vertical-offset="4095">
               <folding />
             </state>
           </provider>
@@ -50,10 +50,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="custom.css" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="custom.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/custom.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="1" selection-start="379" selection-end="379" vertical-scroll-proportion="0.4375" vertical-offset="0" max-vertical-offset="2325">
+            <state line="26" column="0" selection-start="462" selection-end="462" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2325">
               <folding>
                 <marker date="1387208252000" expanded="true" signature="350:379" placeholder="..." />
               </folding>
@@ -411,19 +411,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="1" selection-start="1535" selection-end="1799" vertical-scroll-proportion="-17.208334" vertical-offset="37" max-vertical-offset="4095">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/custom.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="1" selection-start="379" selection-end="379" vertical-scroll-proportion="0.4375" vertical-offset="0" max-vertical-offset="2325">
+        <state line="26" column="0" selection-start="462" selection-end="462" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2325">
           <folding>
             <marker date="1387208252000" expanded="true" signature="350:379" placeholder="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="9" selection-start="1006" selection-end="1006" vertical-scroll-proportion="0.34114203" vertical-offset="37" max-vertical-offset="4095">
+          <folding />
         </state>
       </provider>
     </entry>
