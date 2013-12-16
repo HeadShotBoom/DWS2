@@ -9,7 +9,9 @@
     <title>DWS2 Final Project</title><!-- Page title -->
     <link href="css/foundation.css" type="text/css" rel="stylesheet" /> <!-- Link to CSS -->
     <link href="css/normalize.css" type="text/css" rel="stylesheet" />
+    <link href="killercarousel/killercarousel.css" type="text/css" rel="stylesheet" />
     <link href="css/custom.css" type="text/css" rel="stylesheet" />
+    <script src="killercarousel/killercarousel.js"></script>
     <!--[if lt IE 9]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]--> <!-- IE Compatibility Mode -->
     <script type="text/javascript">
         function changeClass()
@@ -19,7 +21,25 @@
         }
     </script>
     <script src="js/modernizr.js"></script>
-
+    <script type = "text/javascript">
+        // Create the carousel.
+        $(function() {
+            $('.kc-wrap').KillerCarousel({
+                // Default natural width of carousel.
+                width: 800,
+                // Item spacing in 3d (has CSS3 3d) mode.
+                spacing3d: 120,
+                // Item spacing in 2d (no CSS3 3d) mode.
+                spacing2d: 120,
+                showShadow: true,
+                showReflection: true,
+                // Looping mode.
+                infiniteLoop: true,
+                // Scale at 75% of parent element.
+                autoScale: 75
+            });
+        });
+    </script>
 </head><!-- End Of Header -->
 <body>
 <header>
@@ -239,10 +259,10 @@
             <h2 id="b8">B8 Transitions, Transformations, and Animations OH MY!</h2>
             <p>This assignment unleashed a plethora of possibilities by turning our instant CSS changes to smooth and timed changes. Many of these changes you will notice on this site.</p>
             <div class="row">
-                <div class="small-4 columns">
+                <div class="small-12 medium-4 columns">
             <p>Some of the elements we learned about are:</p>
                 </div>
-                <div class="small-8 columns">
+                <div class="small-8 medium-8 columns">
                     <h3>HOVER OVER THESE!!!</h3>
             <ul>
                 <li>Transitions</li>
@@ -258,7 +278,28 @@
     </div>
     </div>
 </article>
-
+ <!--The carouse wrapper -->
+<div id="sidebargallery" class = "kc-wrap">
+    <!-- Carousel items follow -->
+    <div class="kc-item">
+        <img src="img/rotated/victory.jpg" alt = "Baby Smiles">
+    </div>
+    <div class="kc-item">
+        <img src="img/rotated/bootstrap.jpg" alt = "Bootstrap">
+    </div>
+    <div class="kc-item">
+        <img src="img/rotated/foundation.jpg" alt = "Foundation">
+    </div>
+    <div class="kc-item">
+        <img src="img/rotated/header.jpg" alt = "HTML Header">
+    </div>
+    <div class="kc-item">
+        <img src="img/rotated/skeleton.jpg" alt = "Skeleton">
+    </div>
+    <div class="kc-item">
+        <img src="img/rotated/kevin.jpg" alt = "Kevin">
+    </div>
+</div>
 <script src="js/jquery.js"></script>
 <script src="js/foundation.min.js"></script>
 <script>

@@ -127,8 +127,9 @@ header {
         width:100%;
         margin:2% auto;
     }
+    #sidebargallery {display:none;}
 }
-@media screen and (min-width: 548px) {
+@media screen and (min-width: 548px) and (max-width: 1000px) {
     #gallery2{
         display:none;
     }
@@ -147,4 +148,13 @@ header {
         -o-transform: scale(1.5, 1.5);
         transform: scale(1.5, 1.5);
     }
+    #sidebargallery {
+        display:none;
+    }
+}
+@media screen and (min-width:1001px) {
+    #gallery1, #gallery2 {
+        display:none;
+    }
+
 }

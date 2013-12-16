@@ -26,25 +26,7 @@
       <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="30" selection-start="1051" selection-end="1051" vertical-scroll-proportion="0.38506588" vertical-offset="37" max-vertical-offset="4095">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="foundation.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/foundation.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="91" column="11" selection-start="1750" selection-end="1753" vertical-scroll-proportion="-8.730769" vertical-offset="1138" max-vertical-offset="80055">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="foundation.topbar.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/foundation/foundation.topbar.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="12" selection-start="177" selection-end="183" vertical-scroll-proportion="27.115385" vertical-offset="855" max-vertical-offset="5790">
+            <state line="293" column="34" selection-start="14854" selection-end="14854" vertical-scroll-proportion="0.5387994" vertical-offset="4027" max-vertical-offset="4710">
               <folding />
             </state>
           </provider>
@@ -53,9 +35,9 @@
       <file leaf-file-name="custom.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/custom.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="0" selection-start="462" selection-end="462" vertical-scroll-proportion="0.0" vertical-offset="1605" max-vertical-offset="2325">
+            <state line="100" column="35" selection-start="2667" selection-end="2667" vertical-scroll-proportion="0.0" vertical-offset="630" max-vertical-offset="2475">
               <folding>
-                <marker date="1387208252000" expanded="true" signature="350:379" placeholder="..." />
+                <marker date="1387217239000" expanded="true" signature="350:379" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -71,7 +53,9 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
+        <option value="$PROJECT_DIR$/killercarousel/index.htm" />
         <option value="$PROJECT_DIR$/css/custom.css" />
+        <option value="$PROJECT_DIR$/killercarousel/killercarousel.css" />
         <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
@@ -136,43 +120,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="B9 Final" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="B9 Final" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="vendor" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="B9 Final" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="B9 Final" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="foundation" />
+              <option name="myItemId" value="killercarousel" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -200,6 +148,24 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="img" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rotated" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="B9 Final" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="B9 Final" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="css" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -211,7 +177,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/Ex_Files_CSS_Trans_Depth/Exercise Files" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/killercarousel" />
   </component>
   <component name="RunManager">
     <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
@@ -315,34 +281,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="128" column="8" selection-start="6895" selection-end="6895" vertical-scroll-proportion="0.0" vertical-offset="1636" max-vertical-offset="2265">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/foundation/foundation.orbit.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="45" selection-start="200" selection-end="209" vertical-scroll-proportion="0.0" vertical-offset="210" max-vertical-offset="6600" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/foundation.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2499" column="9" selection-start="60651" selection-end="60657" vertical-scroll-proportion="0.0" vertical-offset="37258" max-vertical-offset="80055">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/custom.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="0" selection-start="299" selection-end="336" vertical-scroll-proportion="0.0" vertical-offset="210" max-vertical-offset="585">
-          <folding>
-            <marker date="1387208252000" expanded="true" signature="350:379" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/vendor/custom.modernizr.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="707" />
@@ -360,69 +298,76 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/jquery.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.038179148" vertical-offset="26" max-vertical-offset="132525">
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.038179148" vertical-offset="26" max-vertical-offset="132525" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/normalize.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="5" selection-start="314" selection-end="315" vertical-scroll-proportion="0.21613833" vertical-offset="0" max-vertical-offset="6240">
-          <folding />
-        </state>
+        <state line="10" column="5" selection-start="314" selection-end="315" vertical-scroll-proportion="0.21613833" vertical-offset="0" max-vertical-offset="6240" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/foundation/foundation.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="1.0" vertical-offset="26" max-vertical-offset="6330">
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="1.0" vertical-offset="26" max-vertical-offset="6330" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/foundation/foundation.abide.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="1.0" vertical-offset="26" max-vertical-offset="3105">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="1.0" vertical-offset="26" max-vertical-offset="3105" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/foundation/foundation.magellan.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.038179148" vertical-offset="26" max-vertical-offset="1860">
-          <folding />
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.038179148" vertical-offset="26" max-vertical-offset="1860" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/foundation/foundation.topbar.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="12" selection-start="177" selection-end="183" vertical-scroll-proportion="-1.0352423" vertical-offset="855" max-vertical-offset="5790" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/killercarousel/killercarousel.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="33" column="193" selection-start="8190" selection-end="8200" vertical-scroll-proportion="0.72687227" vertical-offset="0" max-vertical-offset="1185">
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/foundation.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="91" column="11" selection-start="1750" selection-end="1753" vertical-scroll-proportion="-8.730769" vertical-offset="1138" max-vertical-offset="80055">
+        <state line="3509" column="6" selection-start="84400" selection-end="84406" vertical-scroll-proportion="0.33333334" vertical-offset="52408" max-vertical-offset="80055">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/foundation/foundation.topbar.js">
+    <entry file="file://$PROJECT_DIR$/killercarousel/killercarousel.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="12" selection-start="177" selection-end="183" vertical-scroll-proportion="27.115385" vertical-offset="855" max-vertical-offset="5790">
+        <state line="24" column="29" selection-start="739" selection-end="739" vertical-scroll-proportion="0.5" vertical-offset="0" max-vertical-offset="1815">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/killercarousel/index.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="63" column="19" selection-start="1667" selection-end="2396" vertical-scroll-proportion="1.1420205" vertical-offset="165" max-vertical-offset="2565">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/custom.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="0" selection-start="462" selection-end="462" vertical-scroll-proportion="0.0" vertical-offset="1605" max-vertical-offset="2325">
+        <state line="100" column="35" selection-start="2667" selection-end="2667" vertical-scroll-proportion="0.0" vertical-offset="630" max-vertical-offset="2475">
           <folding>
-            <marker date="1387208252000" expanded="true" signature="350:379" placeholder="..." />
+            <marker date="1387217239000" expanded="true" signature="350:379" placeholder="..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="30" selection-start="1051" selection-end="1051" vertical-scroll-proportion="0.38506588" vertical-offset="37" max-vertical-offset="4095">
+        <state line="293" column="34" selection-start="14854" selection-end="14854" vertical-scroll-proportion="0.5387994" vertical-offset="4027" max-vertical-offset="4710">
           <folding />
         </state>
       </provider>
