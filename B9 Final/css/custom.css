@@ -119,6 +119,7 @@ header {
     -ms-transform: skew(49deg, 1deg) ;
     transform: skew(49deg, 1deg) ;
 }
+
 @media screen and (max-width: 547px) {
    #gallery1 {
        display: none;
@@ -129,7 +130,7 @@ header {
     }
     #sidebargallery {display:none;}
 }
-@media screen and (min-width: 548px) and (max-width: 1000px) {
+@media screen and (min-width: 548px) and (max-width: 1672px) {
     #gallery2{
         display:none;
     }
@@ -152,9 +153,55 @@ header {
         display:none;
     }
 }
-@media screen and (min-width:1001px) {
+@media screen and (min-width:1673px) {
     #gallery1, #gallery2 {
         display:none;
     }
+    #gallery3 {
+        display:inline-block;
+        position:absolute;
+        top:20%;
 
+    }
+   #gallery3 img.one {
+       position:relative;
+       left:-110%;
+   }
+    #gallery3 img.two {
+        position:relative;
+        left:-110%;
+        top:25px;
+    }
+    #gallery3 img.three {
+        position:relative;
+        left:-110%;
+        top:50px;
+    }
+    #gallery3 img.four {
+        position:relative;
+        top:50px;
+    }
+    #gallery3 img.five {
+        position:relative;
+        top:75px;
+    }
+    #gallery3 img.six {
+        position:relative;
+        top:100px;
+    }
+    img, a.button {
+        -webkit-transition: all 2000ms cubic-bezier(0.735, 0, 0.400, 1); /* older webkit */
+        -webkit-transition: all 2000ms cubic-bezier(0.735, -0.190, 0.400, 1.205);
+        -moz-transition: all 2000ms cubic-bezier(0.735, -0.190, 0.400, 1.205);
+        -o-transition: all 2000ms cubic-bezier(0.735, -0.190, 0.400, 1.205);
+        transition: all 2000ms cubic-bezier(0.735, -0.190, 0.400, 1.205); /* custom */
+    }
+
+    img:hover, a.button:hover {
+        -webkit-transform: scale(1.5, 1.5);
+        -moz-transform: scale(1.5, 1.5);
+        -ms-transform: scale(1.5, 1.5);
+        -o-transform: scale(1.5, 1.5);
+        transform: scale(1.5, 1.5);
+    }
 }

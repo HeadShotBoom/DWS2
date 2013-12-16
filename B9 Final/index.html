@@ -9,37 +9,16 @@
     <title>DWS2 Final Project</title><!-- Page title -->
     <link href="css/foundation.css" type="text/css" rel="stylesheet" /> <!-- Link to CSS -->
     <link href="css/normalize.css" type="text/css" rel="stylesheet" />
-    <link href="killercarousel/killercarousel.css" type="text/css" rel="stylesheet" />
     <link href="css/custom.css" type="text/css" rel="stylesheet" />
-    <script src="killercarousel/killercarousel.js"></script>
     <!--[if lt IE 9]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]--> <!-- IE Compatibility Mode -->
     <script type="text/javascript">
         function changeClass()
         {
             document.getElementById("main-div").className = "visible";
-            document.getElementById("movie").className = "hidden";
+            document.getElementById("dasmovie").className = "hidden";
         }
     </script>
     <script src="js/modernizr.js"></script>
-    <script type = "text/javascript">
-        // Create the carousel.
-        $(function() {
-            $('.kc-wrap').KillerCarousel({
-                // Default natural width of carousel.
-                width: 800,
-                // Item spacing in 3d (has CSS3 3d) mode.
-                spacing3d: 120,
-                // Item spacing in 2d (no CSS3 3d) mode.
-                spacing2d: 120,
-                showShadow: true,
-                showReflection: true,
-                // Looping mode.
-                infiniteLoop: true,
-                // Scale at 75% of parent element.
-                autoScale: 75
-            });
-        });
-    </script>
 </head><!-- End Of Header -->
 <body>
 <header>
@@ -48,10 +27,10 @@
     <h1>Highlights of DWS2</h1>
     <p>In this, My final project, I will highlight some of the things we learned in this course. I will describe the things I learned and demonstrate those elements in the styling of this page.</p>
     <p>If you would like to see a video describing how AWESOME this class and our instructor is, watch the video below.</p>
-    <div id="movie" class="flex-video">
-        <iframe width="420" height="315" src="//www.youtube.com/embed/CKPACHU3elY?autoplay=1&controls=0&loop=1&playlist=CKPACHU3elY" frameborder="0" allowfullscreen ></iframe>
-        <img src="img/foundation.jpg">
-    </div>
+    <!--<div id="dasmovie" class="flex-video">-->
+        <!--<iframe width="420" height="315" src="//www.youtube.com/embed/CKPACHU3elY?autoplay=1&controls=0&loop=1&playlist=CKPACHU3elY" frameborder="0" allowfullscreen ></iframe>-->
+        <!--<img src="img/foundation.jpg">-->
+    <!--</div>-->
     <p>If you would like to know more, <a href="#" id="dasbutton" class="button radius" onclick="changeClass()">Click here to begin.</a></p>
    </div>
    </div>
@@ -149,7 +128,23 @@
         <img src="img/kevin.jpg" alt="Das Instructor">
 
     </div>
+    <div class="row">
+
+    <div id="gallery3" class="hidden">
+       <div class="small-3 columns">
+        <img class="one" src="img/victory.jpg"alt="Flawless Victory"></br>
+        <img class="two" src="img/header.png" alt="HTML Header"></br>
+        <img class="three" src="img/bootstrap.jpg" alt="Bootstrap Logo"></br>
+       </div>
+        <div class="small-3 columns">
+        <img class="four" src="img/foundation.jpg" alt="Foundation Mascot"></br>
+        <img class="five" src="img/skeleton.jpg" alt="Horse Skeleton"></br>
+            <img class="six" src="img/kevin.jpg" alt="Das Instructor"></br>
+        </div>
+    </div>
+    </div>
 <div class="row">
+
     <section id="position" class="addspace">
         <div class="small-12 medium-5 columns">
         <h2 id="b6">B6 CSS Positioning</h2>
@@ -277,29 +272,9 @@
         </section>
     </div>
     </div>
+
 </article>
- <!--The carouse wrapper -->
-<div id="sidebargallery" class = "kc-wrap">
-    <!-- Carousel items follow -->
-    <div class="kc-item">
-        <img src="img/rotated/victory.jpg" alt = "Baby Smiles">
-    </div>
-    <div class="kc-item">
-        <img src="img/rotated/bootstrap.jpg" alt = "Bootstrap">
-    </div>
-    <div class="kc-item">
-        <img src="img/rotated/foundation.jpg" alt = "Foundation">
-    </div>
-    <div class="kc-item">
-        <img src="img/rotated/header.jpg" alt = "HTML Header">
-    </div>
-    <div class="kc-item">
-        <img src="img/rotated/skeleton.jpg" alt = "Skeleton">
-    </div>
-    <div class="kc-item">
-        <img src="img/rotated/kevin.jpg" alt = "Kevin">
-    </div>
-</div>
+
 <script src="js/jquery.js"></script>
 <script src="js/foundation.min.js"></script>
 <script>
