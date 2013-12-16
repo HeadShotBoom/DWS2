@@ -4,6 +4,10 @@ body {
     font-family: "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
     background-color: #ffffe0;
 }
+article {
+    width:100%;
+
+}
 header {
     padding:1%;
     margin-bottom: 20px;
@@ -13,12 +17,17 @@ header p {
     text-indent: 1%;
 }
 /* Hides Page Content Until Button is Clicked*/
-.hidden {
-    display:none;
-}
+/*.hidden {*/
+    /*display:none;*/
+/*}*/
 /*Reveals page content upon button click*/
 .visible {
     display:inline-block;
+}
+
+#submit {
+    position:relative;
+    top:20px;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -34,6 +43,9 @@ h1, h2, h3, h4, h5, h6 {
 }
 .addspace {
     margin-top: 50px;
+}
+#morebottomspace, #morebottomspace2 {
+    margin-bottom:20px;
 }
 @-webkit-keyframes headerBG {
     0% {background-color: #CCA254;}
@@ -106,4 +118,33 @@ header {
     -o-transform: skew(49deg, 1deg) ;
     -ms-transform: skew(49deg, 1deg) ;
     transform: skew(49deg, 1deg) ;
+}
+@media screen and (max-width: 547px) {
+   #gallery1 {
+       display: none;
+   }
+    #gallery2 img {
+        width:100%;
+        margin:2% auto;
+    }
+}
+@media screen and (min-width: 548px) {
+    #gallery2{
+        display:none;
+    }
+    img, a.button {
+        -webkit-transition: all 2000ms cubic-bezier(0.735, 0, 0.400, 1); /* older webkit */
+        -webkit-transition: all 2000ms cubic-bezier(0.735, -0.190, 0.400, 1.205);
+        -moz-transition: all 2000ms cubic-bezier(0.735, -0.190, 0.400, 1.205);
+        -o-transition: all 2000ms cubic-bezier(0.735, -0.190, 0.400, 1.205);
+        transition: all 2000ms cubic-bezier(0.735, -0.190, 0.400, 1.205); /* custom */
+    }
+
+    img:hover, a.button:hover {
+        -webkit-transform: scale(1.5, 1.5);
+        -moz-transform: scale(1.5, 1.5);
+        -ms-transform: scale(1.5, 1.5);
+        -o-transform: scale(1.5, 1.5);
+        transform: scale(1.5, 1.5);
+    }
 }
