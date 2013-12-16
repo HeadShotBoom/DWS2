@@ -17,9 +17,9 @@ header p {
     text-indent: 1%;
 }
 /* Hides Page Content Until Button is Clicked*/
-/*.hidden {*/
-    /*display:none;*/
-/*}*/
+.hidden {
+    display:none;
+}
 /*Reveals page content upon button click*/
 .visible {
     display:inline-block;
